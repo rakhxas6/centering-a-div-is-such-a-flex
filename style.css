@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 100vh;
+    background-color: salmon;
+}
+
+button{
+    margin: 10px;
+    padding: 10px;
+    width: 150px;
+    height: 30%;
+    border-radius: 7px;
+    border: none;
+    font-size: 15px;
+    font-weight: bold;
+    text-transform: uppercase;
+    box-shadow: 1px 1px 2px rgba(0, 0, 0, .9);
+    cursor: pointer;
+    animation: glowing 1300ms infinite;
+}
+button:hover{
+    background-color: aqua;
+    transition: all 0.8s;
+}
+
+/* @keyframes glowing {
+    0% {
+      background-color: #2ba805;
+      box-shadow: 0 0 3px #2ba805;
+    }
+    50% {
+      background-color: #49e819;
+      box-shadow: 0 0 10px #49e819;
+    }
+    100% {
+      background-color: #2ba805;
+      box-shadow: 0 0 3px #2ba805;
+    }
+  } */
